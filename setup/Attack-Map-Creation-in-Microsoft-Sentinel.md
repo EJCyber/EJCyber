@@ -9,16 +9,17 @@ This guide explains how to create an **Attack Map** in **Microsoft Sentinel** us
 
 ## Steps
 
-### 1️⃣ Open Microsoft Sentinel Workbooks
+## 1️⃣ Open Microsoft Sentinel Workbooks
 1. Navigate to **Microsoft Sentinel** in the **Azure Portal**.
 2. Select your **Log Analytics Workspace**.
 3. Under **Threat Management**, click **Workbooks**.
 4. Click **+ New** to create a new workbook.
 
-### 2️⃣ Add a Query-Based Visualization
-1.Click **Edit**, then Click the *...** on the right side to remove the default visuals.
+## 2️⃣ Add a Query-Based Visualization
+1.Click **Edit**, then Click the **...** on the right side to remove the default visuals.
+![image](https://github.com/user-attachments/assets/b6fa1527-8a4c-4103-a7f8-51d586f9331d)
+2. Click **Add**, then **Add Query**![image](https://github.com/user-attachments/assets/5ab0c733-20bd-46fe-bb0e-cf9f02cd6c74)
 
-2. Click **Add query**
 3. Select **Log Analytics** as the data source.
 4. Use the following **KQL Query** to retrieve attack locations:
 

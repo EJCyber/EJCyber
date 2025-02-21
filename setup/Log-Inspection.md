@@ -28,8 +28,6 @@ Review the logs for suspicious patterns, such as multiple failed login attempts 
 
 
 ## 🎯 Next Steps
-✅ Set up **Log Analytics** to collect event logs.
-✅ Integrate with **Microsoft Sentinel** for threat detection.
-✅ Use **KQL** queries to analyze attack patterns.
+✅ Proceed to **Set up Log Analytics** to forward logs and enhance your analysis.
 
-🚀 Proceed to [Log Forwarding, Log Analytics, and KQL Queries](log-forwarding-kql.md) guide.
+🚀 Check out [Log Forwarding, Log Analytics, and KQL Queries](log-forwarding-kql.md) guide.

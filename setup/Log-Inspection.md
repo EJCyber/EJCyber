@@ -19,3 +19,11 @@ After setting up the honeypot VM, it's crucial to inspect the logs to detect and
 
 ### 3️⃣ Analyze Logs
 Review the logs for suspicious patterns, such as multiple failed login attempts from different IPs, which could indicate a brute-force attack.
+
+
+## 🎯 Next Steps
+✅ Set up **Log Analytics** to collect event logs.
+✅ Integrate with **Microsoft Sentinel** for threat detection.
+✅ Use **KQL** queries to analyze attack patterns.
+
+🚀 Proceed to [Log Forwarding, Log Analytics, and KQL Queries](log-forwarding-kql.md) guide.

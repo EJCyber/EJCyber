@@ -46,6 +46,6 @@ My journey in IT and technical support has fueled my passion for cybersecurity. 
 </div>
 
 ## 🔥 Security Projects
-- **Home SOC Lab – Azure & Sentinel Security Monitoring https://github.com/EJCyber/Home-SOC-Lab
+- Home SOC Lab – Azure & Sentinel Security Monitoring https://github.com/EJCyber/Home-SOC-Lab
 - SOC Automation Lab
 - Home Lab: Active Directory Set up / User & Access Control

@@ -44,20 +44,19 @@ The **VNet** allows communication between Azure resources:
    - **Resource Group**: `RG-SOC-Lab`
    - **Virtual Machine Name**: `Corp-Net-East-1` (Avoid obvious names like "Honeypot").
    - **Region**: `East US 2`
-![image](https://github.com/user-attachments/assets/7c1f531a-5b43-4eb2-8974-3f6aa6a09bfa)
+   ![image](https://github.com/user-attachments/assets/7c1f531a-5b43-4eb2-8974-3f6aa6a09bfa)
 
    - **Image**: Windows 10
-   - **Size**: Since we ar utilizing the free subscription we should only have 1 option available. (If you are using the pay as you go, try for something that isn't too costly to help minimize cost)
+   - **Size**: Since we are utilizing the free subscription, we should only have 1 option available. (If you are using a pay-as-you-go model, try selecting a cost-effective VM size to minimize costs.)
    - **Administrator Username**: Choose a secure name.
-   - **Password**: Set a strong password. (one that you will easily remember as this is just a lab you don't have to go crazy with this. But Always remember when working in the production always keep th passwords strong and lengthy)
-![image](https://github.com/user-attachments/assets/cf66284a-d9c1-4951-916c-8917ee25f97b)
+   - **Password**: Set a strong password. (For testing purposes, you can choose something memorable, but for production environments, always use strong, lengthy passwords.)
+   ![image](https://github.com/user-attachments/assets/cf66284a-d9c1-4951-916c-8917ee25f97b)
 
 3. Under **Inbound Port Rules**:
-   - Select **Allow Selected Ports**
+   - Select **Allow Selected Ports**.
    - Open **RDP (3389) for Windows**.
 4. Click **Review + Create**, then **Create**.
 ![image](https://github.com/user-attachments/assets/85241504-130b-42b3-b826-c528d562158f)
-
 
 ---
 
@@ -86,14 +85,14 @@ The **VNet** allows communication between Azure resources:
 4. Set **Firewall State** to `Off` for all profiles (Domain, Private, Public).
 ![image](https://github.com/user-attachments/assets/2ccf6919-89e6-47ad-bab1-c2da721f0ea5)
 
-5. Click **Apply** and **OK**. (It should take up to 20min-1hour to start seeing activity in the raw events log)
-6. Open **Event Viewer**
-   - Press `Win + R`, type `Event Viewer`, and hit **Enter**
-   - Click the **Windows Logs** dropdown
-   - Click **Security** (Give it some time to load, it will begin to show all security related events that have occured on that machine so far. Take some time to observer this raw data)
+5. Click **Apply** and **OK**. (It may take up to 20 minutes to 1 hour to start seeing activity in the raw event logs, depending on attack traffic.)
+6. Open **Event Viewer**:
+   - Press `Win + R`, type `Event Viewer`, and hit **Enter**.
+   - Click the **Windows Logs** dropdown.
+   - Click **Security** (Give it some time to load, and you will begin to see all security-related events that have occurred on the machine. Take some time to review this raw data).
 ![image](https://github.com/user-attachments/assets/737f2a35-19b0-4296-8a90-bb38cdd50028)
 
-**Bonus tip:** If you Navigate to **Actions** on the right pane, click **Filter Current Log**, edit the text box that says **ALL Event IDs** and type **4625** (this event ID signifies a failed log in attempt), then click ok, you will see all events related to failed log in. From **REAL** attackers!
+**Bonus Tip:** If you navigate to **Actions** on the right pane, click **Filter Current Log**, then edit the text box that says **All Event IDs** and type **4625** (this event ID signifies a failed login attempt). Click **OK** to view all events related to failed logins from **real** attackers!
 ![image](https://github.com/user-attachments/assets/78b2a15e-e55a-44dc-bd4f-81b236002e77)
 
 ---

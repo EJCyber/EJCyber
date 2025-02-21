@@ -91,9 +91,6 @@ The **VNet** allows communication between Azure resources:
 ---
 
 ## 🎯 Next Steps
-✅ Log Inspection via **Event Viewer**
-✅ Set up **Log Analytics** to collect event logs.
-✅ Integrate with **Microsoft Sentinel** for threat detection.
-✅ Use **KQL** queries to analyze attack patterns.
+✅ Learn how to effectively use **Event Viewer** for log inspection.
 
 🚀 Proceed to [Log Inspection](log-inspection.md) guide.

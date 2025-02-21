@@ -1,63 +1,69 @@
-# Log Analytics Setup Guide
+# Home SOC Lab – Azure Honeypot & Threat Monitoring
 
-## 📌 Overview
-This guide explains how to configure **Azure Log Analytics** to collect, store, and analyze logs from your honeypot VM.
+## 🔍 Overview
+This project simulates a **Security Operations Center (SOC)** environment by deploying a honeypot in **Microsoft Azure** to monitor and analyze real-world cyber threats. The goal is to enhance **threat detection skills** by collecting, analyzing, and visualizing malicious activities using **Log Analytics, Microsoft Sentinel, and Kusto Query Language (KQL).**
 
-## 🔧 Prerequisites
-- **Microsoft Azure account**
-- **Honeypot VM deployed** ([Refer to Honeypot Deployment Guide](honeypot-deployment.md))
-- **Azure Monitor Permissions**
+## 🔧 Tools & Technologies Used
+- **Microsoft Azure** – Virtual Machine (VM) deployment & cloud security monitoring
+- **Microsoft Sentinel** – SIEM for real-time monitoring & threat analysis
+- **Log Analytics** – Event data collection & aggregation
+- **Kusto Query Language (KQL)** – Custom threat querying & data analysis
+- **Attack Mapping** – Visualizing cyber attack patterns
 
-## 🚀 Configuration Steps
+## 🛠 Project Workflow
+### 1️⃣ Deploying the Honeypot
+- Created a **Windows/Linux VM** in Azure and exposed select services to attract malicious traffic.
+- Configured firewall and network settings to simulate a vulnerable system.
 
-### 1️⃣ Create a Log Analytics Workspace
-1. Navigate to **Azure Portal** → **Log Analytics Workspaces**.
-2. Click **Create** and configure:
-   - **Subscription:** Select your active subscription.
-   - **Resource Group:** Use an existing or create a new one.
-   - **Region:** Choose a region close to your VM.
-   - **Pricing Tier:** Default **Pay-as-you-go** is fine.
-3. Click **Review + Create** → **Create**.
+### 2️⃣ Log Collection & Aggregation
+- Captured incoming attacks and logged activity via **Azure Log Analytics**.
+- Forwarded logs to **Microsoft Sentinel** for centralized monitoring.
 
-### 2️⃣ Connect Your VM to Log Analytics
-1. Navigate to **Virtual Machines** → Select your Honeypot VM.
-2. Under **Monitoring**, click **Insights** → **Enable**.
-3. Select **Log Analytics Workspace** created earlier.
-4. Click **Apply** and wait for configuration to complete.
+### 3️⃣ Threat Analysis Using KQL
+- Queried **Log Analytics Workspace** to extract attack patterns.
+- Filtered and visualized attack sources, methods, and timestamps.
 
-### 3️⃣ Enable Diagnostic Logging
-1. Go to **Azure Monitor** → **Diagnostic Settings**.
-2. Select **Your Honeypot VM** and click **Add diagnostic setting**.
-3. Choose **Send to Log Analytics workspace**.
-4. Select relevant log categories (**Security, Audit, Performance**).
-5. Click **Save**.
+### 4️⃣ Building an Attack Map
+- Mapped out attack patterns to understand adversary behavior.
+- Documented findings and security recommendations.
 
-### 4️⃣ Verify Log Collection
-1. Navigate to **Azure Log Analytics**.
-2. Click **Logs** and run the query:
-   ```kql
-   SecurityEvent
-   | where EventId == 4625
-   ```
-3. Confirm logs are being ingested.
+## 📌 Key Findings
+✅ Identified multiple brute-force login attempts and network scanning activities.  
+✅ Detected suspicious IPs and their geographical locations.  
+✅ Analyzed attacker dwell time and attack vectors.
 
-### 5️⃣ Import GeoIP Data for Enrichment
-1. Download **geoip-summarized.csv** (IP Geolocation dataset).
-2. Navigate to **Sentinel** → **Watchlists**.
-3. Create a new watchlist:
-   - **Name/Alias:** geoip
-   - **Source Type:** Local File
-   - **Search Key:** network
-4. Upload `geoip-summarized.csv` and wait for full import (~54,000 rows).
-5. Use the following query to enrich security logs with geolocation:
-   ```kql
-   let GeoIPDB_FULL = _GetWatchlist("geoip");
-   let WindowsEvents = SecurityEvent
-       | where EventId == 4625
-       | evaluate ipv4_lookup(GeoIPDB_FULL, IpAddress, network);
-   WindowsEvents
-   ```
-6. Confirm logs now contain geographic information.
+## 🔜 Next Steps & Expansion
+- Integrating **Elastic Stack (ELK)** for enhanced log visualization.  
+- Implementing **automated alerting** for real-time threat detection.  
+- Expanding honeypot capabilities to monitor **different types of cyberattacks**.
 
-## 🔜 Next Steps
-- [Sentinel Integration](sentinel-integration.md)
+## 📂 Repository Structure
+```
+Home-SOC-Lab/
+│── README.md
+│── queries/
+│   ├── attack-patterns.kql
+│   ├── brute-force-detection.kql
+│   ├── network-scan-detection.kql
+│── screenshots/
+│   ├── attack-map.png
+│   ├── sentinel-dashboard.png
+│── setup/
+│   ├── honeypot-deployment.md
+│   ├── log-analytics-setup.md
+│   ├── sentinel-integration.md
+```
+
+## 📜 How to Set Up Your Own SOC Lab
+Refer to the setup guides:
+- [Honeypot Deployment](setup/honeypot-deployment.md)
+- [Log Analytics Setup](setup/log-analytics-setup.md)
+- [Sentinel Integration](setup/sentinel-integration.md)
+
+## 🏆 Author
+**Emmanuel Johnson** – Entry-Level Cybersecurity Professional
+📧 Contact: e.johnson.cyber@gmail.com | 🌐 [LinkedIn Profile](https://www.linkedin.com/in/manny-johnson)
+
+---
+
+🔗 **GitHub Repository:** [Home-SOC-Lab](https://github.com/EJCyber/Home-SOC-Lab)

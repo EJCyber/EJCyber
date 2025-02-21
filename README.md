@@ -1,69 +1,41 @@
-# Home SOC Lab – Azure Honeypot & Threat Monitoring
+# Honeypot Deployment Guide
 
-## 🔍 Overview
-This project simulates a **Security Operations Center (SOC)** environment by deploying a honeypot in **Microsoft Azure** to monitor and analyze real-world cyber threats. The goal is to enhance **threat detection skills** by collecting, analyzing, and visualizing malicious activities using **Log Analytics, Microsoft Sentinel, and Kusto Query Language (KQL).**
+## 📌 Overview
+This guide explains how to deploy a honeypot in **Microsoft Azure** to attract and analyze real-world cyber threats.
 
-## 🔧 Tools & Technologies Used
-- **Microsoft Azure** – Virtual Machine (VM) deployment & cloud security monitoring
-- **Microsoft Sentinel** – SIEM for real-time monitoring & threat analysis
-- **Log Analytics** – Event data collection & aggregation
-- **Kusto Query Language (KQL)** – Custom threat querying & data analysis
-- **Attack Mapping** – Visualizing cyber attack patterns
+## 🔧 Prerequisites
+- **Microsoft Azure account** with a subscription ([Sign up here](https://azure.microsoft.com/en-us/pricing/purchase-options/azure-account))
+- **Virtual Machine (VM)** setup permissions
+- Basic knowledge of **firewall rules** and **networking**
 
-## 🛠 Project Workflow
-### 1️⃣ Deploying the Honeypot
-- Created a **Windows/Linux VM** in Azure and exposed select services to attract malicious traffic.
-- Configured firewall and network settings to simulate a vulnerable system.
+## 🚀 Deployment Steps
 
-### 2️⃣ Log Collection & Aggregation
-- Captured incoming attacks and logged activity via **Azure Log Analytics**.
-- Forwarded logs to **Microsoft Sentinel** for centralized monitoring.
+### 1️⃣ Create a Virtual Machine (VM)
+1. **Log in to Azure** and navigate to **Azure Virtual Machines**.
+2. Click **Create** → **Virtual Machine**.
+3. Choose:
+   - **Operating System:** Windows 10 (or Server 2019 / Linux)
+   - **Size:** Minimum 2 vCPUs, 4GB RAM
+   - **Networking:** Allow RDP/SSH (but restrict access after setup)
+4. Configure disk and click **Review + Create**.
+5. Once deployed, **note the Public IP** of the VM.
 
-### 3️⃣ Threat Analysis Using KQL
-- Queried **Log Analytics Workspace** to extract attack patterns.
-- Filtered and visualized attack sources, methods, and timestamps.
+### 2️⃣ Configure Firewall Rules to Simulate a Honeypot
+1. In **Azure Portal**, go to **Networking** → **Inbound Port Rules**.
+2. Create a rule to **allow all inbound traffic** for logging purposes.
+3. Save settings and apply changes.
+4. **Disable Windows Firewall**:
+   - Open Run (`Win + R`), type `wf.msc`, and press Enter.
+   - Set all profiles to **Off**.
 
-### 4️⃣ Building an Attack Map
-- Mapped out attack patterns to understand adversary behavior.
-- Documented findings and security recommendations.
+### 3️⃣ Logging and Event Collection
+1. Fail **3 login attempts** using a fake username like **“employee”**.
+2. Log into your VM.
+3. Open **Event Viewer** → Navigate to **Security Logs**.
+4. Verify **Event ID 4625** appears for failed logins.
 
-## 📌 Key Findings
-✅ Identified multiple brute-force login attempts and network scanning activities.  
-✅ Detected suspicious IPs and their geographical locations.  
-✅ Analyzed attacker dwell time and attack vectors.
+### 4️⃣ Next Steps
+- Proceed to [Log Analytics Setup](log-analytics-setup.md) to centralize log collection.
+- Continue to [Sentinel Integration](sentinel-integration.md) for SIEM analysis.
 
-## 🔜 Next Steps & Expansion
-- Integrating **Elastic Stack (ELK)** for enhanced log visualization.  
-- Implementing **automated alerting** for real-time threat detection.  
-- Expanding honeypot capabilities to monitor **different types of cyberattacks**.
-
-## 📂 Repository Structure
-```
-Home-SOC-Lab/
-│── README.md
-│── queries/
-│   ├── attack-patterns.kql
-│   ├── brute-force-detection.kql
-│   ├── network-scan-detection.kql
-│── screenshots/
-│   ├── attack-map.png
-│   ├── sentinel-dashboard.png
-│── setup/
-│   ├── honeypot-deployment.md
-│   ├── log-analytics-setup.md
-│   ├── sentinel-integration.md
-```
-
-## 📜 How to Set Up Your Own SOC Lab
-Refer to the setup guides:
-- [Honeypot Deployment](setup/honeypot-deployment.md)
-- [Log Analytics Setup](setup/log-analytics-setup.md)
-- [Sentinel Integration](setup/sentinel-integration.md)
-
-## 🏆 Author
-**Emmanuel Johnson** – Entry-Level Cybersecurity Professional
-📧 Contact: e.johnson.cyber@gmail.com | 🌐 [LinkedIn Profile](https://www.linkedin.com/in/manny-johnson)
-
----
-
-🔗 **GitHub Repository:** [Home-SOC-Lab](https://github.com/EJCyber/Home-SOC-Lab)
+📩 **For any issues or enhancements, feel free to reach out!**

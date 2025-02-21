@@ -72,7 +72,7 @@ Refer to the setup guides:
 - [Honeypot VM Setup](setup/honeypot-vm-setup.md)
 - [Log Inspection](setup/log-inspection.md)
 - [Log Forwarding & KQL](setup/log-forwarding-kql.md)
-- [Log Enrichment & Location Data](setup/log-enrichment-location-data.md)
+- [Log Enrichment & Location Data](https://github.com/EJCyber/Home-SOC-Lab/blob/main/setup/log-enrichment-location-data.md)
 - [Attack Map Creation](setup/attack-map-creation.md)
 
 ## 🏆 Author

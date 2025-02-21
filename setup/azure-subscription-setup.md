@@ -1,24 +1,40 @@
-# Get Started with a Free Azure Subscription
+# Setting Up an Azure Subscription
 
 ## Overview
-This guide will help you set up a **free Microsoft Azure subscription** to deploy a SOC lab while avoiding unnecessary costs.
+This guide will walk you through setting up a **free Azure subscription** to deploy and manage cloud-based resources for your SOC home lab.
+
+---
 
 ## Step 1: Create a Free Azure Account
-1. Go to the [Microsoft Azure Free Tier](https://azure.microsoft.com/en-us/free/).
-2. Click **Start for Free** and sign in with a Microsoft account.
-3. Complete the registration process, including identity verification (a credit card is required for verification only – no charges will be made).
-4. Once registered, log in to the [Azure Portal](https://portal.azure.com).
+Azure offers a **free tier** that includes a $200 credit for 30 days and 12 months of free services.
 
-### 💡 **What’s Included in the Free Tier**
-- **$200 in Azure credits** (valid for the first 30 days).
-- **12 months of free services**, including virtual machines, storage, and networking.
-- **Always Free Services**, such as **Azure Log Analytics**, which will be used in this project.
+1. **Go to the Azure free account page:**  
+   [Azure Free Subscription](https://azure.microsoft.com/en-us/free/)
+   
+![Screenshot 2025-02-21 103807](https://github.com/user-attachments/assets/5b7ac98f-7b39-4d68-ab73-af706e575f9e)
 
-## Step 2: Prevent Unexpected Charges
-To ensure that your lab remains cost-free, follow these precautions:
-- **Enable a spending limit**: Azure will automatically pause services if you exceed the free tier.
-- **Monitor usage**: Check your Azure Cost Management dashboard regularly.
-- **Shut down or delete resources**: Turn off virtual machines when they’re not in use to avoid unnecessary usage of free-tier limits.
+2. Click **Try Azure for Free** and sign in with a Microsoft account. If you don’t have one, create a free Microsoft account.
 
-## Step 3: Next Steps – Setting Up the Honeypot VM
-With your free subscription ready, proceed to the next step: [Honeypot VM Setup](honeypot-vm-setup.md).
+3. Enter the required details:
+   - Personal information
+   - Phone verification
+   - Credit card (for identity verification; you won’t be charged unless you upgrade).
+
+4. Agree to the terms and complete the setup.
+
+5. Once your account is created, access the **Azure Portal** at [portal.azure.com](https://portal.azure.com).
+
+---
+
+## Step 2: Verify Your Subscription
+After logging into the Azure Portal:
+- Click on **Subscriptions** in the left-hand menu.
+- Ensure your **Free Trial** subscription is active.
+- If needed, go to **Cost Management + Billing** to check usage.
+
+---
+
+## Next Steps
+Now that your Azure subscription is active, proceed with:
+- [Setting up the Honeypot (Azure Virtual Machine)](honeypot-deployment.md)
+- [Configuring Log Analytics & Microsoft Sentinel](log-analytics-setup.md)

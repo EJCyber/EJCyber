@@ -3,6 +3,12 @@
 ## Overview
 After setting up the honeypot VM, it's crucial to inspect the logs to detect and analyze attack patterns. This guide explains how to use **Event Viewer** to check security-related events.
 
+## Prerequisites
+- A **Honeypot VM** running in **Azure**.
+- **RDP** access to the VM.
+- Basic understanding of **Event Viewer** and Windows Security Logs.
+
+
 ## Steps
 
 ### 1️⃣ Access Event Viewer

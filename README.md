@@ -45,7 +45,7 @@ My journey in IT and technical support has fueled my passion for cybersecurity. 
 <img src="https://img.shields.io/badge/-A%2B-4D4D4D?&style=for-the-badge&logo=CompTIA&logoColor=white" />
 </div>
 
-## Projects
-- HomeSOC Lab: Azure & Sentinel Security Monitoring
+## 🔥 Security Projects
+- **Home SOC Lab – Azure & Sentinel Security Monitoring https://github.com/EJCyber/Home-SOC-Lab
 - SOC Automation Lab
 - Home Lab: Active Directory Set up / User & Access Control

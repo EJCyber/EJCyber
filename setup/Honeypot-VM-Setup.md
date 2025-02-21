@@ -86,20 +86,14 @@ The **VNet** allows communication between Azure resources:
 ![image](https://github.com/user-attachments/assets/2ccf6919-89e6-47ad-bab1-c2da721f0ea5)
 
 5. Click **Apply** and **OK**. (It may take up to 20 minutes to 1 hour to start seeing activity in the raw event logs, depending on attack traffic.)
-6. Open **Event Viewer**:
-   - Press `Win + R`, type `Event Viewer`, and hit **Enter**.
-   - Click the **Windows Logs** dropdown.
-   - Click **Security** (Give it some time to load, and you will begin to see all security-related events that have occurred on the machine. Take some time to review this raw data).
-![image](https://github.com/user-attachments/assets/737f2a35-19b0-4296-8a90-bb38cdd50028)
-
-**Bonus Tip:** If you navigate to **Actions** on the right pane, click **Filter Current Log**, then edit the text box that says **All Event IDs** and type **4625** (this event ID signifies a failed login attempt). Click **OK** to view all events related to failed logins from **real** attackers!
-![image](https://github.com/user-attachments/assets/78b2a15e-e55a-44dc-bd4f-81b236002e77)
+6. Open **Event Viewer** to begin monitoring logs.
 
 ---
 
 ## 🎯 Next Steps
+✅ Log Inspection via **Event Viewer**
 ✅ Set up **Log Analytics** to collect event logs.
 ✅ Integrate with **Microsoft Sentinel** for threat detection.
 ✅ Use **KQL** queries to analyze attack patterns.
 
-🚀 Proceed to [Log Analytics Setup](log-analytics-setup.md)
+🚀 Proceed to [Log Inspection](log-inspection.md) guide.

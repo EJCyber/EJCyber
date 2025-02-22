@@ -36,4 +36,4 @@ After logging into the Azure Portal:
 
 ## Next Steps
 Now that your Azure subscription is active, proceed with:
-- [Honeypot VM Setup in Azure)](honeypot-vm-setup.md)
+- [Honeypot VM Setup in Azure](honeypot-vm-setup.md)

@@ -9,14 +9,14 @@ I’m a **cybersecurity professional** with experience in **technical support, S
 With a strong foundation in IT and technical support, I am actively transitioning into a **Security Operations Center (SOC) role as a Tier 1 Analyst**. Through hands-on labs and certifications, I have developed skills in **threat detection, incident response, and security monitoring**, which I am eager to apply in a professional SOC environment.
 
 ## 🛠️ Skills  
-| Skill                                              | Associated Project |
-|----------------------------------------------------|--------------------|
+| Skill                                              | Associated Project                               |
+|----------------------------------------------------|--------------------------------------------------|
 | **Security Information & Event Management (SIEM)** | [Home SOC Lab](SecurityProjects/home-soc-lab.md) |
-| **Threat Hunting & Log Analysis** | [Home SOC Lab](SecurityProjects/home-soc-lab.md) |
-| **Kusto Query Language (KQL) for Threat Detection** | [Home SOC Lab](SecurityProjects/home-soc-lab.md) |
-| **Windows Server Administration & Active Directory** | [Active Directory Lab] |
-| **User & Access Control Management**       | [Active Directory Lab] |
-| **Incident Response & Security Monitoring** | [Home SOC Lab](SecurityProjects/home-soc-lab.md) |
+| **Threat Hunting & Log Analysis**                  | [Home SOC Lab](SecurityProjects/home-soc-lab.md) |
+| **Kusto Query Language (KQL) for Threat Detection**| [Home SOC Lab](SecurityProjects/home-soc-lab.md) |
+| **Windows Server & Active Directory**              | [Active Directory Lab] (In Progress)             |
+| **User & Access Control Management**               | [Active Directory Lab] (In Progress)             |
+| **Incident Response & Security Monitoring**        | [Home SOC Lab](SecurityProjects/home-soc-lab.md) |
 
 ## 🔧 Tools  
 
@@ -45,12 +45,12 @@ With a strong foundation in IT and technical support, I am actively transitionin
 </div>
 
 ## 🔥 Security Projects  
-- [**Home SOC Lab** – Azure & Sentinel Security Monitoring][Home SOC Lab](SecurityProjects/home-soc-lab.md)  
+**Home SOC Lab** – Azure & Sentinel Security Monitoring [Home SOC Lab](SecurityProjects/home-soc-lab.md)  
   - Set up a **honeypot** and monitored logs using **Microsoft Sentinel**.
   - Used **KQL queries** to detect suspicious activity and analyze threat patterns.
   - Mapped **attack patterns** to understand adversary behavior and enhance detection.
 
-- **Active Directory Lab** – User & Access Control (In Progress)  
+**Active Directory Lab** – User & Access Control (In Progress)  
   - Configured **Windows Server 2019** with **Active Directory Domain Services**.
   - Created **user roles, permissions, and GPOs** for access control.
   - Managed authentication and security policies to simulate a real-world enterprise environment.

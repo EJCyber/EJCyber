@@ -68,12 +68,12 @@ Home-SOC-Lab/
 
 ## 📜 How to Set Up Your Own SOC Lab
 Refer to the setup guides:
-- [Azure Subscription Setup](setup/azure-subscription-setup.md)
-- [Honeypot VM Setup](setup/honeypot-vm-setup.md)
-- [Log Inspection](setup/log-inspection.md)
+- [Setting Up an Azure Subscription](setup/azure-subscription-setup.md)
+- [Honeypot VM Setup in Azure](setup/honeypot-vm-setup.md)
+- [Log Inspection via Event Viewer](setup/log-inspection.md)
 - [Log Forwarding, Log Analytics, and KQL Queries](setup/log-forward-kql.md)
 - [Log Enrichment & Location Data](setup/log-enrichment-location-data.md)
-- [Attack Map Creation](setup/attack-map-creation.md)
+- [Attack Map Creation in Microsoft Sentinel](attack-map-creation.md)
 
 ## 🏆 Author
 **Emmanuel Johnson** – Aspiring SOC Analyst | Cybersecurity Enthusiast  

@@ -73,7 +73,7 @@ Refer to the setup guides:
 - [Log Inspection](setup/log-inspection.md)
 - [Log Forwarding & KQL](setup/log-forwarding-kql.md)
 - [Log Enrichment & Location Data](setup/log-enrichment-location-data.md)
-- [Attack Map Creation](setup/attack-map-creation.md)
+- [Attack Map Creation](attack-map-creation.md)
 
 ## 🏆 Author
 **Emmanuel Johnson** – Aspiring SOC Analyst | Cybersecurity Enthusiast  

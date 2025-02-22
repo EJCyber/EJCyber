@@ -12,11 +12,11 @@ With a strong foundation in IT and technical support, I am actively transitionin
 | Skill                                              | Associated Project |
 |----------------------------------------------------|--------------------|
 | **Security Information & Event Management (SIEM)** | ([Home SOC Lab](SecurityProjects/home-soc-lab.md)) |
-| **Threat Hunting & Log Analysis** | [Home SOC Lab](SecurityProjects/home-soc-lab.md |
-| **Kusto Query Language (KQL) for Threat Detection** | [Home SOC Lab](https://github.com/EJCyber/Home-SOC-Lab) |
-| **Windows Server Administration & Active Directory** | [Active Directory Lab](https://github.com/EJCyber/Home-Lab) |
-| **User & Access Control Management**       | [Active Directory Lab](https://github.com/EJCyber/Home-Lab) |
-| **Incident Response & Security Monitoring** | [Home SOC Lab](https://github.com/EJCyber/Home-SOC-Lab) |
+| **Threat Hunting & Log Analysis** | [Home SOC Lab](SecurityProjects/home-soc-lab.md) |
+| **Kusto Query Language (KQL) for Threat Detection** | [Home SOC Lab](SecurityProjects/home-soc-lab.md)) |
+| **Windows Server Administration & Active Directory** | [Active Directory Lab] |
+| **User & Access Control Management**       | [Active Directory Lab] |
+| **Incident Response & Security Monitoring** | [Home SOC Lab](SecurityProjects/home-soc-lab.md) |
 
 ## 🔧 Tools  
 

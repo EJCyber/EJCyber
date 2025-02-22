@@ -4,8 +4,8 @@
 This guide explains how to create an **Attack Map** in **Microsoft Sentinel** using workbooks to visualize attack patterns based on geo-location data.
 
 ## Prerequisites
-- **Log Analytics and Sentinel Setup Completed** ([Log Forwarding & KQL Queries](log-forwarding-kql.md))
-- **Geo-location data enrichment implemented** ([Log Enrichment with Location Data](log-enrichment-location-data.md))
+- **Log Analytics and Sentinel Setup Completed** [Log Forwarding & KQL Queries](setup/log-forwarding-kql.md)
+- **Geo-location data enrichment implemented** [Log Enrichment with Location Data](setup/log-enrichment-location-data.md)
 
 ## Steps
 

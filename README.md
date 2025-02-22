@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Hello, I’m Emmanuel  
 <a href="https://linkedin.com/in/manny-johnson">
     <img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" />
@@ -10,10 +9,10 @@ I’m a **cybersecurity professional** with experience in **technical support, S
 With a strong foundation in IT and technical support, I am actively transitioning into a **Security Operations Center (SOC) role as a Tier 1 Analyst**. Through hands-on labs and certifications, I have developed skills in **threat detection, incident response, and security monitoring**, which I am eager to apply in a professional SOC environment.
 
 ## 🛠️ Skills  
-| Skill                                        | Associated Project |
-|---------------------------------------------|--------------------|
+| Skill                                              | Associated Project |
+|----------------------------------------------------|--------------------|
 | **Security Information & Event Management (SIEM)** | [Home SOC Lab](https://github.com/EJCyber/Home-SOC-Lab) |
-| **Threat Hunting & Log Analysis**          | [Home SOC Lab](https://github.com/EJCyber/Home-SOC-Lab) |
+| **Threat Hunting & Log Analysis** | [Home SOC Lab](https://github.com/EJCyber/Home-SOC-Lab) |
 | **Kusto Query Language (KQL) for Threat Detection** | [Home SOC Lab](https://github.com/EJCyber/Home-SOC-Lab) |
 | **Windows Server Administration & Active Directory** | [Active Directory Lab](https://github.com/EJCyber/Home-Lab) |
 | **User & Access Control Management**       | [Active Directory Lab](https://github.com/EJCyber/Home-Lab) |

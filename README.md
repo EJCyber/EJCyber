@@ -9,7 +9,7 @@ I’m a **cybersecurity professional** with experience in **technical support, S
 With a strong foundation in IT and technical support, I am actively transitioning into a **Security Operations Center (SOC) role as a Tier 1 Analyst**. Through hands-on labs and certifications, I have developed skills in **threat detection, incident response, and security monitoring**, which I am eager to apply in a professional SOC environment.
 
 ## 🛠️ Skills  
-| Skill                                              | Associated Project                               |
+|Skill                                               | Associated Project                               |
 |----------------------------------------------------|--------------------------------------------------|
 | **Security Information & Event Management (SIEM)** | [Home SOC Lab](SecurityProjects/home-soc-lab.md) |
 | **Threat Hunting & Log Analysis**                  | [Home SOC Lab](SecurityProjects/home-soc-lab.md) |

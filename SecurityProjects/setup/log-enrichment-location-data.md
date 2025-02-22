@@ -4,7 +4,7 @@
 This guide explains how to enrich logs in **Microsoft Sentinel** with **geolocation data** using **Watchlists**. This will help in identifying attack sources based on IP addresses.
 
 ## Prerequisites
-- **Log Analytics and Microsoft Sentinel** are set up ([Log Forwarding & KQL Queries](log-forwarding-kql.md)).
+- **Log Analytics and Microsoft Sentinel** are set up [Log Forwarding & KQL Queries](log-forward-kql.md).
 - A **CSV file** containing geolocation data (e.g., country, city, ISP) for known IPs.
 
 ## Steps

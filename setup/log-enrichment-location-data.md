@@ -36,4 +36,4 @@ This guide explains how to enrich logs in **Microsoft Sentinel** with **geolocat
 ## Next Steps
 ✅ Proceed to **Attack Map Creation** to visualize attack sources.
 
-🚀 Move to [Attack Map Creation in Microsoft Sentinel](setup/Attack-Map-Creation-in-Microsoft-Sentinel.md)
+🚀 Move to [Attack Map Creation in Microsoft Sentinel](setup/attack-map-creation-microsoft-sentinel.md)

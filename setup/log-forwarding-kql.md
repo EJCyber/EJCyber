@@ -73,4 +73,4 @@ This guide explains how to set up **Log Analytics** to collect logs from your ho
 
 ## 🎯 Next Steps
 - After forwarding logs to **Microsoft Sentinel**, proceed with **Log Enrichment** in [Log Enrichment & Location Data](setup/log-enrichment-location-data.md)
-- Use **KQL queries** for deeper analysis and visualization as outlined in the [Attack Map Creation](setup/attack-map-creation.md).
+- Use **KQL queries** for deeper analysis and visualization as outlined in the [Attack Map Creation](setup/Attack-Map-Creation-in-Microsoft-Sentinel.md).

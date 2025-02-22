@@ -1,5 +1,5 @@
 # Home SOC Lab – Azure Honeypot & Threat Monitoring
-[Home SOC Lab](home-soc-lab.md)
+
 ## 🔍 Overview
 This project simulates a **Security Operations Center (SOC)** environment by deploying a honeypot in **Microsoft Azure** to monitor and analyze real-world cyber threats. The goal is to enhance **threat detection skills** by collecting, analyzing, and visualizing malicious activities using **Log Analytics, Microsoft Sentinel, and Kusto Query Language (KQL).**
 
@@ -71,7 +71,7 @@ Refer to the setup guides:
 - [Azure Subscription Setup](setup/azure-subscription-setup.md)
 - [Honeypot VM Setup](setup/honeypot-vm-setup.md)
 - [Log Inspection](setup/log-inspection.md)
-- [Log Forwarding & KQL](setup/log-forwarding-kql.md)
+- [Log Forwarding, Log Analytics, and KQL Queries](SecurityProjects/setup/log-forward-kql.md)
 - [Log Enrichment & Location Data](setup/log-enrichment-location-data.md)
 - [Attack Map Creation](setup/attack-map-creation.md)
 

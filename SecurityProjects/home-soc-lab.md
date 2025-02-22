@@ -34,7 +34,7 @@ One of the key insights from this project was visualizing global attack sources.
 The image below illustrates real-time attack data collected from the honeypot VM.
 
 ### **Windows VM Attack Heat Map**
-![Windows VM Attack Map](windows-vm-attack-map.png)
+![Windows VM Attack Map](Screenshot_20250222_150246_Chrome.jpg)
 
 **Key Observations:**
 - **High attack activity** from regions like **South Korea, Middle East, and North America**.

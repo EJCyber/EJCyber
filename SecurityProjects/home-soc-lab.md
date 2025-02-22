@@ -71,7 +71,7 @@ Refer to the setup guides:
 - [Azure Subscription Setup](setup/azure-subscription-setup.md)
 - [Honeypot VM Setup](setup/honeypot-vm-setup.md)
 - [Log Inspection](setup/log-inspection.md)
-- [Log Forwarding, Log Analytics, and KQL Queries](SecurityProjects/setup/log-forward-kql.md)
+- [Log Forwarding, Log Analytics, and KQL Queries](setup/log-forward-kql.md)
 - [Log Enrichment & Location Data](setup/log-enrichment-location-data.md)
 - [Attack Map Creation](setup/attack-map-creation.md)
 

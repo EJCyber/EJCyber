@@ -73,5 +73,5 @@ This guide explains how to set up **Log Analytics** to collect logs from your ho
 
 ## 🎯 Next Steps
 
-- After forwarding logs to **Microsoft Sentinel**, proceed with **Log Enrichment** in ([Log Enrichment & Location Data](log-enrichment-location-data.md))
+- After forwarding logs to **Microsoft Sentinel**, proceed with **Log Enrichment** in [Log Enrichment & Location Data](log-enrichment-location-data.md)
 

@@ -29,12 +29,18 @@ This lab follows a structured approach to deploy a honeypot, collect security lo
 - Mapped out attack patterns to understand adversary behavior.
 - Documented findings and security recommendations.
 
-## 📌 Key Findings
-✅ Identified multiple brute-force login attempts and network scanning activities.  
-✅ Detected suspicious IPs and their geographical locations.  
-✅ Analyzed attacker dwell time and attack vectors.  
+## 🔍 Findings & Analysis  
+One of the key insights from this project was visualizing global attack sources.  
+The image below illustrates real-time attack data collected from the honeypot VM.
 
-Through this lab, I identified real-world attack trends, strengthening my threat detection and analysis skills.
+### **Windows VM Attack Heat Map**
+![Windows VM Attack Map](windows-vm-attack-map.png)
+
+**Key Observations:**
+- **High attack activity** from regions like **South Korea, Middle East, and North America**.
+- Multiple **brute-force login attempts** detected.
+- Evidence of **port scanning** from distributed IP addresses.
+- Used **KQL queries** to filter, analyze, and respond to threats effectively.
 
 ## 🔜 Next Steps & Expansion
 - Integrating **Elastic Stack (ELK)** for enhanced log visualization.  

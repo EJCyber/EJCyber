@@ -93,4 +93,4 @@ The **VNet** allows communication between Azure resources:
 ## 🎯 Next Steps
 ✅ Learn how to effectively use **Event Viewer** for log inspection.
 
-🚀 Proceed to [Log Inspection](log-inspection.md) guide.
+🚀 Proceed to [Log Inspection via Event Viewer](log-inspection.md) guide.

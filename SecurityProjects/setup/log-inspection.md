@@ -30,4 +30,4 @@ Review the logs for suspicious patterns, such as multiple failed login attempts 
 ## 🎯 Next Steps
 ✅ Proceed to **Set up Log Analytics** to forward logs and enhance your analysis.
 
-🚀 Check out [Log Forwarding, Log Analytics, and KQL Queries](log-forwarding-kql.md) guide.
+🚀 Check out [Log Forwarding, Log Analytics, and KQL Queries](log-forward-kql.md) guide.

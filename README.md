@@ -1,51 +1,63 @@
-# Hello, I'm Emmanuel
-<a href="https://linkedin.com/in/manny-johnson"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+# Hello, I’m Emmanuel  
+<a href="https://linkedin.com/in/manny-johnson">
+    <img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>  
 
+I’m a **cybersecurity professional** with experience in **technical support, SOC analysis, and Microsoft 365 administration**. Passionate about **threat detection, incident response, and continuous learning** in the cybersecurity space.
 
-I'm a cybersecurity enthusiast and IT professional with experience in technical support, SOC analysis, and Microsoft 365 administration. Passionate about threat detection, incident response, and continuous learning in the cybersecurity space.
+## 🎯 Objective  
+With a strong foundation in IT and technical support, I am actively transitioning into a **Security Operations Center (SOC) role as a Tier 1 Analyst**. Through hands-on labs and certifications, I have developed skills in **threat detection, incident response, and security monitoring**, which I am eager to apply in a professional SOC environment.
 
-## Objective
+## 🛠️ Skills  
+| Skill                                        | Associated Project |
+|---------------------------------------------|--------------------|
+| **Security Information & Event Management (SIEM)** | [Home SOC Lab](https://github.com/EJCyber/Home-SOC-Lab) |
+| **Threat Hunting & Log Analysis**          | [Home SOC Lab](https://github.com/EJCyber/Home-SOC-Lab) |
+| **Kusto Query Language (KQL) for Threat Detection** | [Home SOC Lab](https://github.com/EJCyber/Home-SOC-Lab) |
+| **Windows Server Administration & Active Directory** | [Active Directory Lab](https://github.com/EJCyber/Home-Lab) |
+| **User & Access Control Management**       | [Active Directory Lab](https://github.com/EJCyber/Home-Lab) |
+| **Incident Response & Security Monitoring** | [Home SOC Lab](https://github.com/EJCyber/Home-SOC-Lab) |
 
-My journey in IT and technical support has fueled my passion for cybersecurity. I am now eager to transition fully into the field, specifically aiming to join a Security Operations Center (SOC) as a Tier 1 Analyst, where I can apply my skills in threat detection, incident response, and security monitoring.
+## 🔧 Tools  
 
-## Skills
-
-| Skill                                         | Associated Project         |
-|-----------------------------------------------|----------------------------|
-| SIEM Implementation and Log Analysis          | <a href="https://google.com">Detection Lab</a>|
-| Network Traffic Monitoring and Attack Detection | <a href="https://google.com">Detection Lab</a>|
-| Security Automation with Shuffle SOAR         | SOC Automation Lab|
-| Incident Response Planning and Execution      | SOC Automation Lab|
-| Case Management with TheHive                  | SOC Automation Lab|
-| Scripting and Automation for Threat Mitigation | SOC Automation Lab|
-
-## Tools
-
-### Network
+### **Network**  
 <div>
     <img src="https://img.shields.io/badge/-Wireshark-1679A7?&style=for-the-badge&logo=Wireshark&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Suricata-EF3B2D?&style=for-the-badge&logo=Suricata&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Zeek-777BB4?&style=for-the-badge&logo=Zeek&logoColor=white" />
+    <img src="https://img.shields.io/badge/-tcpdump-4D4D4D?&style=for-the-badge&logo=Linux&logoColor=white" />
 </div>
 
-### Endpoint
+### **Endpoint**  
 <div>
     <img src="https://img.shields.io/badge/-Microsoft_Defender_for_Endpoint-00A4EF?&style=for-the-badge&logo=Microsoft&logoColor=white" />
-   
-### SIEM
+</div>
+
+### **SIEM**  
 <div>
     <img src="https://img.shields.io/badge/-Microsoft_Sentinel-0078D4?&style=for-the-badge&logo=Microsoft&logoColor=white" />
     <img src="https://img.shields.io/badge/-Splunk-000000?&style=for-the-badge&logo=Splunk&logoColor=white" />
     <img src="https://img.shields.io/badge/-Elastic-005571?&style=for-the-badge&logo=Elastic&logoColor=white" />
 </div>
 
-## Certifications
+## 🎓 Certifications  
 <div>
 <img src="https://img.shields.io/badge/-Security%2B-FF0000?&style=for-the-badge&logo=CompTIA&logoColor=white" />
 <img src="https://img.shields.io/badge/-A%2B-4D4D4D?&style=for-the-badge&logo=CompTIA&logoColor=white" />
 </div>
 
-## 🔥 Security Projects
-- Home SOC Lab – Azure & Sentinel Security Monitoring https://github.com/EJCyber/Home-SOC-Lab
-- SOC Automation Lab
-- Home Lab: Active Directory Set up / User & Access Control
+## 🔥 Security Projects  
+- [**Home SOC Lab** – Azure & Sentinel Security Monitoring](https://github.com/EJCyber/Home-SOC-Lab)  
+  - Set up a **honeypot** and monitored logs using **Microsoft Sentinel**.
+  - Used **KQL queries** to detect suspicious activity and analyze threat patterns.
+  - Mapped **attack patterns** to understand adversary behavior and enhance detection.
+
+- [**Active Directory Lab** – User & Access Control](https://github.com/EJCyber/Home-Lab)  
+  - Configured **Windows Server 2019** with **Active Directory Domain Services**.
+  - Created **user roles, permissions, and GPOs** for access control.
+  - Managed authentication and security policies to simulate a real-world enterprise environment.
+
+## 🌐 Connect with Me  
+<a href="https://linkedin.com/in/manny-johnson">
+    <img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>  
+
+🚀 Feel free to connect or check out my projects!

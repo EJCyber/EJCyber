@@ -20,10 +20,12 @@ This lab follows a structured approach to deploy a honeypot, collect security lo
 ### 2️⃣ Log Collection & Aggregation
 - Captured incoming attacks and logged activity via **Azure Log Analytics**.
 - Forwarded logs to **Microsoft Sentinel** for centralized monitoring.
+![Screenshot_20250222_160743_Chrome](https://github.com/user-attachments/assets/3d59f4fc-ead7-4055-adb6-3de24b98a823)
 
 ### 3️⃣ Threat Analysis Using KQL
 - Queried **Log Analytics Workspace** to extract attack patterns.
 - Filtered and visualized attack sources, methods, and timestamps.
+![Screenshot_20250222_160659_Chrome](https://github.com/user-attachments/assets/1b2af4bb-d581-4bbe-a085-212f3c13b941)
 
 ### 4️⃣ Building an Attack Map
 - Mapped out attack patterns to understand adversary behavior.

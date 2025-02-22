@@ -34,12 +34,12 @@ This guide explains how to create an **Attack Map** in **Microsoft Sentinel** us
 4. Click **Run** to preview the data.
 5. Click **Visualization** and select **Map**.
 
-### 3️⃣ Customize the Attack Map
+## 3️⃣ Customize the Attack Map
 1. Set **Latitude** and **Longitude** as location fields.
 2. Use **Country** as the display label.
 3. Adjust visualization settings to enhance readability.
 
-### 4️⃣ Save and Deploy
+## 4️⃣ Save and Deploy
 1. Click **Save** and enter a meaningful name like `Attack Map Workbook`.
 2. Click **Done Editing**.
 3. The attack map should now display failed login attempts and their locations.

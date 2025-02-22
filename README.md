@@ -50,7 +50,7 @@ With a strong foundation in IT and technical support, I am actively transitionin
   - Used **KQL queries** to detect suspicious activity and analyze threat patterns.
   - Mapped **attack patterns** to understand adversary behavior and enhance detection.
 
-- [**Active Directory Lab** – User & Access Control](https://github.com/EJCyber/Home-Lab)  
+- **Active Directory Lab** – User & Access Control (In Progress)  
   - Configured **Windows Server 2019** with **Active Directory Domain Services**.
   - Created **user roles, permissions, and GPOs** for access control.
   - Managed authentication and security policies to simulate a real-world enterprise environment.

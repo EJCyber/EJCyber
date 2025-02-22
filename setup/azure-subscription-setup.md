@@ -37,4 +37,3 @@ After logging into the Azure Portal:
 ## Next Steps
 Now that your Azure subscription is active, proceed with:
 - [Setting up the Honeypot (Azure Virtual Machine)](honeypot-vm-setup.md)
-- [Configuring Log Analytics & Microsoft Sentinel](log-forwarding-kql.md)

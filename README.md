@@ -11,9 +11,9 @@ With a strong foundation in IT and technical support, I am actively transitionin
 ## 🛠️ Skills  
 | Skill                                              | Associated Project |
 |----------------------------------------------------|--------------------|
-| **Security Information & Event Management (SIEM)** | ([Home SOC Lab](SecurityProjects/home-soc-lab.md)) |
+| **Security Information & Event Management (SIEM)** | [Home SOC Lab](SecurityProjects/home-soc-lab.md) |
 | **Threat Hunting & Log Analysis** | [Home SOC Lab](SecurityProjects/home-soc-lab.md) |
-| **Kusto Query Language (KQL) for Threat Detection** | [Home SOC Lab](SecurityProjects/home-soc-lab.md)) |
+| **Kusto Query Language (KQL) for Threat Detection** | [Home SOC Lab](SecurityProjects/home-soc-lab.md) |
 | **Windows Server Administration & Active Directory** | [Active Directory Lab] |
 | **User & Access Control Management**       | [Active Directory Lab] |
 | **Incident Response & Security Monitoring** | [Home SOC Lab](SecurityProjects/home-soc-lab.md) |
@@ -45,7 +45,7 @@ With a strong foundation in IT and technical support, I am actively transitionin
 </div>
 
 ## 🔥 Security Projects  
-- [**Home SOC Lab** – Azure & Sentinel Security Monitoring](https://github.com/SecurityProjects/home-soc-lab.md)  
+- [**Home SOC Lab** – Azure & Sentinel Security Monitoring][Home SOC Lab](SecurityProjects/home-soc-lab.md)  
   - Set up a **honeypot** and monitored logs using **Microsoft Sentinel**.
   - Used **KQL queries** to detect suspicious activity and analyze threat patterns.
   - Mapped **attack patterns** to understand adversary behavior and enhance detection.

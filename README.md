@@ -9,17 +9,18 @@ I’m a **cybersecurity professional** with experience in **technical support, S
 With a strong foundation in IT and technical support, I am actively transitioning into a **Security Operations Center (SOC) role as a Tier 1 Analyst**. Through hands-on labs and certifications, I have developed skills in **threat detection, incident response, and security monitoring**, which I am eager to apply in a professional SOC environment.
 
 ## 🛠️ Skills
-* **Security Information & Event Management (SIEM)** | [Home SOC Lab](SecurityProjects/home-soc-lab.md)
 
-* **Threat Hunting & Log Analysis** | [Home SOC Lab](SecurityProjects/home-soc-lab.md)
+**Security Information & Event Management (SIEM)**  | [Home SOC Lab](SecurityProjects/home-soc-lab.md)
 
-* **Kusto Query Language (KQL) for Threat Detection** | [Home SOC Lab](SecurityProjects/home-soc-lab.md)
+**Threat Hunting & Log Analysis**                   | [Home SOC Lab](SecurityProjects/home-soc-lab.md)
 
-* **Windows Server & Active Directory** | [Active Directory Lab] (In Progress)
+**Kusto Query Language (KQL) for Threat Detection** | [Home SOC Lab](SecurityProjects/home-soc-lab.md)
 
-* **User & Access Control Management** | [Active Directory Lab] (In Progress)
+**Windows Server & Active Directory**               | [Active Directory Lab] (In Progress)
 
-* **Incident Response & Security Monitoring** | [Home SOC Lab](SecurityProjects/home-soc-lab.md)
+**User & Access Control Management**                | [Active Directory Lab] (In Progress)
+
+**Incident Response & Security Monitoring**         | [Home SOC Lab](SecurityProjects/home-soc-lab.md)
 
 ## 🔧 Tools  
 

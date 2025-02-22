@@ -53,6 +53,7 @@ With a strong foundation in IT and technical support, I am actively transitionin
   - Set up a **honeypot** and monitored logs using **Microsoft Sentinel**.
   - Used **KQL queries** to detect suspicious activity and analyze threat patterns.
   - Mapped **attack patterns** to understand adversary behavior and enhance detection.
+![Screenshot_20250222_150246_Chrome](https://github.com/user-attachments/assets/e2fafe84-f574-4279-b36e-53ee4a3f62a4)
 
 **Active Directory Lab** – User & Access Control (In Progress)  
   - Configured **Windows Server 2019** with **Active Directory Domain Services**.

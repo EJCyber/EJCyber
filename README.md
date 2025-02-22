@@ -45,7 +45,7 @@ With a strong foundation in IT and technical support, I am actively transitionin
 </div>
 
 ## 🔥 Security Projects  
-- [**Home SOC Lab** – Azure & Sentinel Security Monitoring](https://github.com/EJCyber/Home-SOC-Lab)  
+- [**Home SOC Lab** – Azure & Sentinel Security Monitoring](https://github.com/SecurityProjects/home-soc-lab.md)  
   - Set up a **honeypot** and monitored logs using **Microsoft Sentinel**.
   - Used **KQL queries** to detect suspicious activity and analyze threat patterns.
   - Mapped **attack patterns** to understand adversary behavior and enhance detection.

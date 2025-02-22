@@ -11,7 +11,7 @@ This guide explains how to set up **Log Analytics** to collect logs from your ho
 
 ## Steps
 
-### 1️⃣ Set Up Log Analytics Workspace
+## 1️⃣ Set Up Log Analytics Workspace
 1. In the **Azure Portal**, search for **Log Analytics Workspaces**.
 2. Click **Create** and fill in the details:
    - **Subscription**: Select your active subscription.
@@ -22,14 +22,14 @@ This guide explains how to set up **Log Analytics** to collect logs from your ho
 
 ---
 
-### 2️⃣ Set Up Microsoft Sentinel
+## 2️⃣ Set Up Microsoft Sentinel
 1. In the **Azure Portal**, search for **Microsoft Sentinel**.
 2. Click **Create** (you should see the Log Analytics workspace you just created).
 3. Click on **Log Analytics workspace** to link it to **Microsoft Sentinel** so we can access our log repository from the SIEM.
 
 ---
 
-### 3️⃣ Connect Log Analytics Workspace to Virtual Machine via Sentinel
+## 3️⃣ Connect Log Analytics Workspace to Virtual Machine via Sentinel
 > **Keep in mind** you will see a pop-up that mentions the **Sentinel trial** has been activated. This trial lasts for 30 days, and if you continue to run your VM, charges may be incurred.
 
 1. Once the connection between **Sentinel** and the **Log Analytics workspace** is confirmed, we need to configure the **Azure Monitoring Agent (AMA)** connector. This creates the connection between our virtual machines and our Log Analytics workspace in Sentinel.
@@ -47,7 +47,7 @@ This guide explains how to set up **Log Analytics** to collect logs from your ho
 
 ---
 
-### 4️⃣ Verify Installation of AMA Extension
+## 4️⃣ Verify Installation of AMA Extension
 1. After receiving a **Successfully installed extension** alert, open a new tab and navigate back to your VM in **Azure**.
 2. Select **Settings**, then **Extensions & Apps**. Here you should be able to view the **AMA extension**.
 3. The status may show as **Unavailable** initially, meaning no data is being forwarded yet. This may take some time.
@@ -55,7 +55,7 @@ This guide explains how to set up **Log Analytics** to collect logs from your ho
 
 ---
 
-### 5️⃣ Run Kusto Query Language (KQL) Queries
+## 5️⃣ Run Kusto Query Language (KQL) Queries
 1. In **Log Analytics**, go to **Logs**.
 2. Use **KQL** to run queries and identify attack patterns such as:
    - **Failed logins**:

@@ -56,24 +56,13 @@ I am currently testing ELK integration and plan to implement automated alerting 
 ```yaml
 Home-SOC-Lab/
 ├── README.md
-├── queries/
-│   ├── attack-patterns.kql
-│   ├── brute-force-detection.kql
-│   ├── network-scan-detection.kql
-├── screenshots/
-│   ├── attack-map.png
-│   ├── sentinel-dashboard.png
 ├── setup/
-│   ├── honeypot-deployment.md
-│   ├── log-analytics-setup.md
-│   ├── sentinel-integration.md
 │   ├── azure-subscription-setup.md
 │   ├── honeypot-vm-setup.md
 │   ├── log-inspection.md
 │   ├── log-forwarding-kql.md
 │   ├── log-enrichment-location-data.md
 │   ├── attack-map-creation.md
-```
 
 ## 📜 How to Set Up Your Own SOC Lab
 Refer to the setup guides:

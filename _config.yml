@@ -1,4 +1,6 @@
 theme: jekyll-theme-slate
-title: "EJCyber | SOC Analyst Projects & Threat Hunting"
-description: "Microsoft Sentinel, KQL, SIEM, and Cybersecurity Research"
+title: "EJCyber | Cybersecurity Projects & SOC Lab"
+description: "A collection of hands-on cybersecurity projects, including SIEM, threat hunting, incident response, and security automation."
 show_downloads: true
+github:
+  is_project_page: false

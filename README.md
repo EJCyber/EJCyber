@@ -14,12 +14,12 @@ With a robust background in IT and technical support, I am transitioning into a 
 
 | Skill                                         | Associated Project                                                                                               |
 |-----------------------------------------------|------------------------------------------------------------------------------------------------------------------|
-| **Security Information & Event Management (SIEM)** | [Home SOC Lab](setup/Home-SOC-Lab)                                                          |
-| **Threat Hunting & Log Analysis**             | [Home SOC Lab](setup/Home-SOC-Lab)                                                          |
-| **Kusto Query Language (KQL) for Threat Detection** | [Home SOC Lab](setup/Home-SOC-Lab)                                                          |
+| **Security Information & Event Management (SIEM)** | [Home SOC Lab](SecurityProjects/Home-SOC-Lab)                                                          |
+| **Threat Hunting & Log Analysis**             | [Home SOC Lab](SecurityProjects/Home-SOC-Lab)                                                          |
+| **Kusto Query Language (KQL) for Threat Detection** | [Home SOC Lab](SecurityProjects/Home-SOC-Lab)                                                          |
 | **Windows Server & Active Directory**         | Active Directory Lab (In Progress)                             |
 | **User & Access Control Management**          | Active Directory Lab (In Progress)                             |
-| **Incident Response & Security Monitoring**   | [Home SOC Lab](setup/Home-SOC-Lab)                                                          |
+| **Incident Response & Security Monitoring**   | [Home SOC Lab](SecurityProjects/Home-SOC-Lab)                                                          |
 
 ---
 

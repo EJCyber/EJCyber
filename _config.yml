@@ -1,1 +1,6 @@
-theme: minimal
+theme: jekyll-theme-hacker
+title: "EJCyber | SOC Lab & Cybersecurity Projects"
+description: "Hands-on SOC Lab, Threat Detection, and Cybersecurity Projects"
+show_downloads: true
+github:
+  is_project_page: false

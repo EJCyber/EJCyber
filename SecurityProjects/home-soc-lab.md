@@ -63,6 +63,8 @@ Home-SOC-Lab/
 │   ├── log-forwarding-kql.md
 │   ├── log-enrichment-location-data.md
 │   ├── attack-map-creation.md
+```
+
 
 ## 📜 How to Set Up Your Own SOC Lab
 Refer to the setup guides:
@@ -77,6 +79,6 @@ Refer to the setup guides:
 **Emmanuel Johnson** – Aspiring SOC Analyst | Cybersecurity Enthusiast  
 📧 Contact: e.johnson.cyber@gmail.com | 🌐 [LinkedIn Profile](https://www.linkedin.com/in/manny-johnson)
 
----
+
 
 🔗 **GitHub Repository:** [Home-SOC-Lab](https://github.com/EJCyber/Home-SOC-Lab)

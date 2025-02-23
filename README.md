@@ -22,25 +22,19 @@ With a strong foundation in IT and technical support, I am actively transitionin
 
 **Incident Response & Security Monitoring**         | [Home SOC Lab](SecurityProjects/home-soc-lab.md) |
 
-## 🔧 Tools  
+## 🔧 Tools
 
-### **Network**  
-<div>
-    <img src="https://img.shields.io/badge/-Wireshark-1679A7?&style=for-the-badge&logo=Wireshark&logoColor=white" />
-    <img src="https://img.shields.io/badge/-tcpdump-4D4D4D?&style=for-the-badge&logo=Linux&logoColor=white" />
-</div>
+### Network
+![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
+![tcpdump](https://img.shields.io/badge/tcpdump-4D4D4D?style=for-the-badge&logo=linux&logoColor=white)
 
-### **Endpoint**  
-<div>
-    <img src="https://img.shields.io/badge/-Microsoft_Defender_for_Endpoint-00A4EF?&style=for-the-badge&logo=Microsoft&logoColor=white" />
-</div>
+### Endpoint
+![Microsoft Defender for Endpoint](https://img.shields.io/badge/Microsoft_Defender_for_Endpoint-00A4EF?style=for-the-badge&logo=microsoft&logoColor=white)
 
-### **SIEM**  
-<div>
-    <img src="https://img.shields.io/badge/-Microsoft_Sentinel-0078D4?&style=for-the-badge&logo=Microsoft&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Splunk-000000?&style=for-the-badge&logo=Splunk&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Elastic-005571?&style=for-the-badge&logo=Elastic&logoColor=white" />
-</div>
+### SIEM
+![Microsoft Sentinel](https://img.shields.io/badge/Microsoft_Sentinel-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
+![Splunk](https://img.shields.io/badge/Splunk-000000?style=for-the-badge&logo=splunk&logoColor=white)
+![Elastic](https://img.shields.io/badge/Elastic-005571?style=for-the-badge&logo=elastic&logoColor=white)
 
 ## 🎓 Certifications  
 <div>

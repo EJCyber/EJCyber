@@ -15,11 +15,11 @@ With a robust background in IT and technical support, I am transitioning into a 
 | Skill                                         | Associated Project                                                                                               |
 |-----------------------------------------------|------------------------------------------------------------------------------------------------------------------|
 | **Security Information & Event Management (SIEM)** | [Home SOC Lab](SecurityProjects/Home-SOC-Lab)                                                          |
-| **Threat Hunting & Log Analysis**             | [Home SOC Lab](SecurityProjects/Home-SOC-Lab)                                                          |
-| **Kusto Query Language (KQL) for Threat Detection** | [Home SOC Lab](SecurityProjects/Home-SOC-Lab)                                                          |
+| **Threat Hunting & Log Analysis**             | [Home SOC Lab](SecurityProjects/home-soc-lab.md)                                                          |
+| **Kusto Query Language (KQL) for Threat Detection** | [Home SOC Lab](SecurityProjects/home-soc-lab.md)                                                          |
 | **Windows Server & Active Directory**         | Active Directory Lab (In Progress)                             |
 | **User & Access Control Management**          | Active Directory Lab (In Progress)                             |
-| **Incident Response & Security Monitoring**   | [Home SOC Lab](SecurityProjects/Home-SOC-Lab)                                                          |
+| **Incident Response & Security Monitoring**   | [Home SOC Lab](SecurityProjects/home-soc-lab.md)                                                          |
 
 ---
 
@@ -48,7 +48,7 @@ With a robust background in IT and technical support, I am transitioning into a 
 
 ## 🔥 Security Projects
 
-### [**Home SOC Lab** – Azure & Sentinel Security Monitoring](setup/Home-SOC-Lab)
+### [**Home SOC Lab** – Azure & Sentinel Security Monitoring](SecurityProjects/home-soc-lab.md)
 - **Overview:** Developed a SOC lab environment in Azure, deploying a honeypot to capture and analyze real-world cyber threats.
 - **Key Achievements:**
   - Configured Microsoft Sentinel for real-time threat monitoring.

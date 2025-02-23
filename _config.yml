@@ -1,6 +1,4 @@
-theme: jekyll-theme-hacker
-title: "EJCyber | SOC Lab & Cybersecurity Projects"
-description: "Hands-on SOC Lab, Threat Detection, and Cybersecurity Projects"
+theme: jekyll-theme-slate
+title: "EJCyber | SOC Analyst Projects & Threat Hunting"
+description: "Microsoft Sentinel, KQL, SIEM, and Cybersecurity Research"
 show_downloads: true
-github:
-  is_project_page: false

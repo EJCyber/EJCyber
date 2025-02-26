@@ -64,12 +64,27 @@ With a robust background in IT and technical support, I am transitioning into a 
 
 ---
 
-## 🚀 Upcoming Projects
+## 🚀 Upcoming Projects  
 
-Stay tuned for more projects focusing on:
-- **Security Automation:** Implementing automated incident response using tools like Azure Logic Apps and PowerShell scripting.
-- **Advanced Threat Hunting:** Developing techniques to detect and mitigate sophisticated cyber threats.
-- **Cloud Security:** Exploring security measures and best practices within various cloud platforms.
+### 🛡️ SOC Automation Project – Streamlining Incident Response  
+🔹 **Overview**: Implementing **automated security workflows** to enhance **SOC efficiency**, reduce manual workloads, and accelerate **incident response**.  
+
+🔹 **Tools & Technologies**:  
+- **Wazuh** – Open-source SIEM for log ingestion and threat detection.  
+- **TheHive** – Incident Response platform for managing security cases.  
+- **Shuffle** – SOAR tool for automating security workflows.  
+- **Sysmon** – Windows system monitoring for event logging.  
+- **Python** – Scripting for log parsing and data enrichment.  
+
+🔹 **Key Objectives**:  
+✅ Automate **log ingestion and threat detection** using **Wazuh & Sysmon**.  
+✅ Integrate **TheHive** for **incident tracking and automated case management**.  
+✅ Use **Shuffle** to build and execute **security automation workflows**.  
+✅ Develop **Python scripts** to parse and enrich security logs dynamically.  
+
+🔹 **Expected Outcome**:  
+- A fully functional **automated SOC pipeline**, improving **incident detection and response time** while reducing analyst workload.  
+- Hands-on experience with **SIEM, SOAR, and IR tools**, strengthening cybersecurity automation skills.
 
 ---
 

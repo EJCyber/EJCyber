@@ -10,6 +10,10 @@ This project simulates a **Security Operations Center (SOC)** environment by dep
 - **Kusto Query Language (KQL)** – Custom threat querying & data analysis
 - **Attack Mapping** – Mapping & analyzing attack patterns to understand adversary tactics
 
+## Project Diagram
+![image](https://github.com/user-attachments/assets/ee13b215-a77e-4120-a26a-8407440baa26)
+
+
 ## 🛠 Project Workflow
 This lab follows a structured approach to deploy a honeypot, collect security logs, analyze threats, and map attack behaviors.
 

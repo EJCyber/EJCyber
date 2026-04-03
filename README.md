@@ -1,100 +1,38 @@
-# 🛡️ Emmanuel Johnson | Cybersecurity Professional
+# Emmanuel Johnson
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/manny-johnson)
-
----
-
-## 🎯 Objective
-
-With a robust background in IT and technical support, I am transitioning into a Security Operations Center (SOC) role as a Tier 1 Analyst. Through hands-on labs and certifications, I have honed skills in threat detection, incident response, and security monitoring, which I am eager to apply in a professional environment.
+### Systems Administrator | Cloud Administrator | Identity & Endpoint Management
 
 ---
 
-## 🛠️ Skills
+## About Me
 
-| Skill                                         | Associated Project                                                                                               |
-|-----------------------------------------------|------------------------------------------------------------------------------------------------------------------|
-| **Security Information & Event Management (SIEM)** | [Home SOC Lab](SecurityProjects/home-soc-lab.md)                                                          |
-| **Threat Hunting & Log Analysis**             | [Home SOC Lab](SecurityProjects/home-soc-lab.md)                                                          |
-| **Kusto Query Language (KQL) for Threat Detection** | [Home SOC Lab](SecurityProjects/home-soc-lab.md)                                                          |
-| **Windows Server & Active Directory**         | Active Directory Lab (In Progress)                             |
-| **User & Access Control Management**          | Active Directory Lab (In Progress)                             |
-| **Incident Response & Security Monitoring**   | [Home SOC Lab](SecurityProjects/home-soc-lab.md)                                                          |
+IT professional with hands-on experience in Microsoft 365 administration, identity and access management, endpoint support, and cloud infrastructure. Currently building a production-quality Azure project portfolio focused on identity governance, endpoint management, and cloud security operations.
+
+Holding CompTIA A+ and Security+, actively expanding into Microsoft Azure and cloud administration roles.
 
 ---
 
-## 🔧 Tools
+## Portfolio Projects
 
-### Network
-![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
-![tcpdump](https://img.shields.io/badge/tcpdump-4D4D4D?style=for-the-badge&logo=linux&logoColor=white)
+### Project 1 — Azure Identity Governance
+Cloud identity governance using Microsoft Entra ID, RBAC, security groups, and PowerShell lifecycle automation.
+[View Repository](https://github.com/EJCyber/azure-identity-governance)
 
-### Endpoint
-![Microsoft Defender for Endpoint](https://img.shields.io/badge/Microsoft_Defender_for_Endpoint-00A4EF?style=for-the-badge&logo=microsoft&logoColor=white)
+### Project 2 — Azure Cloud Endpoint Management
+Endpoint deployment, Intune compliance management, and provisioning automation using Azure, Entra ID, and Microsoft Graph PowerShell.
+[View Repository](https://github.com/EJCyber/azure-cloud-endpoint-management)
 
-### SIEM
-![Microsoft Sentinel](https://img.shields.io/badge/Microsoft_Sentinel-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
-![Splunk](https://img.shields.io/badge/Splunk-000000?style=for-the-badge&logo=splunk&logoColor=white)
-![Elastic](https://img.shields.io/badge/Elastic-005571?style=for-the-badge&logo=elastic&logoColor=white)
-
----
-
-## 🎓 Certifications
-
-![CompTIA Security+](https://img.shields.io/badge/CompTIA_Security%2B-FF0000?style=for-the-badge&logo=comptia&logoColor=white)
-![CompTIA A+](https://img.shields.io/badge/CompTIA_A%2B-4D4D4D?style=for-the-badge&logo=comptia&logoColor=white)
+### Project 3 — Coming Soon
+Azure security monitoring, detection, and automated response.
 
 ---
 
-## 🔥 Security Projects
+## Technologies
 
-### [**Home SOC Lab** – Azure & Sentinel Security Monitoring](SecurityProjects/home-soc-lab.md)
-- **Overview:** Developed a SOC lab environment in Azure, deploying a honeypot to capture and analyze real-world cyber threats.
-- **Key Achievements:**
-  - Configured Microsoft Sentinel for real-time threat monitoring.
-  - Utilized KQL for in-depth log analysis and threat detection.
-  - Created visual attack maps to illustrate threat sources and patterns.
-
-### **Active Directory Lab** – User & Access Control*(In Progress)*
-- **Overview:** Setting up a Windows Server environment with Active Directory to simulate enterprise-level user and access management.
-- **Objectives:**
-  - Implement organizational units (OUs) and group policies (GPOs).
-  - Manage user roles and permissions.
-  - Enforce security policies and monitor authentication events.
+Microsoft Azure, Microsoft Entra ID, Microsoft Intune, Microsoft 365, Exchange Online, PowerShell, Microsoft Graph, Azure Virtual Network, Windows Server, CompTIA Security+
 
 ---
 
-## 🚀 Upcoming Projects  
+## Connect
 
-### 🛡️ SOC Automation Project – Streamlining Incident Response  
-🔹 **Overview**: Implementing **automated security workflows** to enhance **SOC efficiency**, reduce manual workloads, and accelerate **incident response**.  
-
-🔹 **Tools & Technologies**:  
-- **Wazuh** – Open-source SIEM for log ingestion and threat detection.  
-- **TheHive** – Incident Response platform for managing security cases.  
-- **Shuffle** – SOAR tool for automating security workflows.  
-- **Sysmon** – Windows system monitoring for event logging.  
-- **Python** – Scripting for log parsing and data enrichment.  
-
-🔹 **Key Objectives**:  
-✅ Automate **log ingestion and threat detection** using **Wazuh & Sysmon**.  
-✅ Integrate **TheHive** for **incident tracking and automated case management**.  
-✅ Use **Shuffle** to build and execute **security automation workflows**.  
-✅ Develop **Python scripts** to parse and enrich security logs dynamically.  
-
-🔹 **Expected Outcome**:  
-- A fully functional **automated SOC pipeline**, improving **incident detection and response time** while reducing analyst workload.  
-- Hands-on experience with **SIEM, SOAR, and IR tools**, strengthening cybersecurity automation skills.
-
----
-
-## 🌐 Connect with Me
-
-I'm always eager to connect with fellow cybersecurity enthusiasts and professionals. Feel free to reach out or explore my work through the links below:
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/manny-johnson)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/EJCyber)
-
----
-
-*This repository serves as a comprehensive overview of my cybersecurity projects, skills, and professional journey. It is regularly updated to reflect new learnings and accomplishments.*
+[LinkedIn](https://www.linkedin.com/in/emmanuel-a-johnson)

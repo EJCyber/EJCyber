@@ -27,6 +27,14 @@ Azure security monitoring, detection, and automated response.
 
 ---
 
+## Earlier Work
+
+### Azure Honeypot and Threat Monitoring Lab
+Simulated a SOC environment by deploying a honeypot in Azure to collect and analyze real-world threat data using Microsoft Sentinel, Log Analytics, and KQL.
+[View Repository](https://github.com/EJCyber/azure-honeypot_and_threat-monitoring)
+
+---
+
 ## Technologies
 
 Microsoft Azure, Microsoft Entra ID, Microsoft Intune, Microsoft 365, Exchange Online, PowerShell, Microsoft Graph, Azure Virtual Network, Windows Server, CompTIA Security+

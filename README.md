@@ -6,9 +6,7 @@
 
 ## About Me
 
-IT professional with hands-on experience in Microsoft 365 administration, identity and access management, endpoint support, and cloud infrastructure. Currently building a production-quality Azure project portfolio focused on identity governance, endpoint management, and cloud security operations.
-
-Holding CompTIA A+ and Security+, actively expanding into Microsoft Azure and cloud administration roles.
+Systems administrator with hands-on experience in Microsoft 365 administration, identity and access management, endpoint support, cloud infrastructure, and technical documentation. Built a production-quality Azure project portfolio focused on identity governance, endpoint management, and cloud security operations. CompTIA A+ and Security+ certified.
 
 ---
 

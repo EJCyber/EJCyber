@@ -1,4 +1,9 @@
-theme: jekyll-theme-slate
+theme: jekyll-theme-cayman
+title: "EJCyber | Cloud, Security, and IT Infrastructure Projects"
+description: "A portfolio of hands-on projects in cybersecurity, cloud administration, Microsoft 365, endpoint management, SIEM, threat hunting, and security automation."
+show_downloads: true
+github:
+  is_project_page: falsetheme: jekyll-theme-slate
 title: "EJCyber | Cybersecurity Projects & SOC Lab"
 description: "A collection of hands-on cybersecurity projects, including SIEM, threat hunting, incident response, and security automation."
 show_downloads: true
